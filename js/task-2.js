@@ -74,9 +74,9 @@ const createLiItem = item => {
 };
 
 const createIgredientsLi = ingredients.map(
-    ingredient => createLiItem(ingredient));
+    ingredient => createLiItem(ingredient), );
 
 const ulIngredients = document.querySelector('#ingredients');
 
 ulIngredients.append(...createIgredientsLi);
-console.log(createIgredientsLi);
+console.log('Список ингридиентов: ', ulIngredients);
