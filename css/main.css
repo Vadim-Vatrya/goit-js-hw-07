@@ -1,0 +1,9 @@
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.gallery-list-img {
+  margin: 5px;
+}
